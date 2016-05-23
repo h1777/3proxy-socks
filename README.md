@@ -41,13 +41,16 @@ For Uninstall Download, make executable and run with these lines :
 **Script tested on 20.05.2016 on the following fresh VPS install distros :**
 
 - Ubuntu 14.04 64bit (Vmware)
+- Scaleway C1 Arm Server (Debian Jessie)
+
 
 **Script will run on :**
-- Debian 6 32bits
-- Debian 7 32bits
-- Ubuntu 12.10 32bits
-- Ubuntu 12.04 32bits
-- Ubuntu 14.04 32bits and 64bits
+- Debian 6 
+- Debian 7 
+- Debian 8 
+- Ubuntu 12.10 
+- Ubuntu 12.04 
+- Ubuntu 14.04
 
 <<<<<<< HEAD
 =======
