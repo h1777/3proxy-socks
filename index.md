@@ -9,9 +9,9 @@ This setup has been created to quickly install a proxy on small lowendbox VPS mo
 
 Download, make executable and run with these lines :
 
-    >wget --no-check-certificate https://raw.github.com/barankilic/3proxy/master/3proxyinstaller.sh
-    >chmod +x 3proxyinstaller.sh
-    >./3proxyinstaller.sh
+    wget --no-check-certificate https://raw.github.com/h1777/3proxy/master/3proxyinstaller.sh
+    chmod +x 3proxyinstaller.sh
+    ./3proxyinstaller.sh
 
 After install : CHANGE THE BLOODY DEFAULT USERNAME AND PASSWORD !!!
 
@@ -23,13 +23,13 @@ Example change line inside .proxyauth
 
 You can also change the port, default is 3128
 
-    >nano /etc/3proxy/3proxy.cfg
+    nano /etc/3proxy/3proxy.cfg
     
 
 Once you've change the username / password you can start the proxy 
 (or reboot the VPS as 3proxy has been added to the init scripts and will autostart)
 
-    >/etc/init.d/3proxyinit start
+    /etc/init.d/3proxyinit start
 
 **Script tested on November 5, 2015 on the following fresh VPS install distros :**
 
