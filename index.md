@@ -31,16 +31,19 @@ Once you've change the username / password you can start the proxy
 
     /etc/init.d/3proxyinit start
 
-**Script tested on November 5, 2015 on the following fresh VPS install distros :**
+**Script tested on March, 2017 on the following fresh VPS install distros :**
 
 * Debian 8 64bit
 * Scaleway C1 Debian Jessie Image
+* Ubuntu 16.04 Server 64bits
 
 **Script will run on :**
 * Debian 6 32bits
 * Debian 7 32bits
 * Ubuntu 12.10 32bits
 * Ubuntu 12.04 32bits
+* Ubuntu 14.04 Server 64bits
+* Ubuntu 16.04 Server 64bits
 
 Forked from
 http://barankilic.github.io/3proxy/
