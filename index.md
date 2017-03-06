@@ -41,3 +41,6 @@ Once you've change the username / password you can start the proxy
 * Debian 7 32bits
 * Ubuntu 12.10 32bits
 * Ubuntu 12.04 32bits
+
+Forked from
+http://barankilic.github.io/3proxy/
