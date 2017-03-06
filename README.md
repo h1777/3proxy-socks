@@ -1,4 +1,4 @@
-3proxy install script for Debian / Ubuntu VPS (ver 0.8.9)
+3proxy install script for Debian / Ubuntu VPS (ver 0.8.6)
 ======================================================
 
 A simple script (without any russian in it, yeepeeh) to install the lightweight russian proxy: 3proxy (http://3proxy.ru/) as an elite high anonymous HTTP proxy with SSL support with a few command lines. 
