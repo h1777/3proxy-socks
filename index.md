@@ -15,7 +15,7 @@ Download, make executable and run with these lines :
 
 After install : CHANGE THE BLOODY DEFAULT USERNAME AND PASSWORD !!!
 
-    >nano /etc/3proxy/.proxyauth
+    nano /etc/3proxy/.proxyauth
 
 Example change line inside .proxyauth
 
