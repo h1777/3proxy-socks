@@ -10,11 +10,11 @@ This setup has been created to quickly install a proxy on small lowendbox VPS mo
 
 Download, make executable and run with these lines :
 
-    wget --no-check-certificate https://raw.github.com/h1777/3proxy/master/3proxyinstaller.sh
+    wget --no-check-certificate https://raw.github.com/h1777/3proxy/0.8.9/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
-After install : CHANGE THE BLOODY DEFAULT USERNAME AND PASSWORD !!! 
+After install : CHANGE DEFAULT USERNAME AND PASSWORD !!! 
 
     nano /etc/3proxy/.proxyauth
 	
@@ -34,7 +34,7 @@ Once you've change the username / password you can start the proxy
 	
 For Uninstall Download, make executable and run with these lines :
 
-	wget --no-check-certificate https://raw.github.com/h1777/3proxy/master/3proxyuninst.sh
+	wget --no-check-certificate https://raw.github.com/h1777/3proxy/0.8.9/3proxyuninst.sh
 	chmod +x 3proxyuninst.sh
 	./3proxyuninst.sh
 
