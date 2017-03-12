@@ -1,8 +1,6 @@
 3proxy install script for Debian / Ubuntu VPS (ver 0.8.9)
 ======================================================
 
-A simple script to install the lightweight proxy: 3proxy (http://3proxy.ru/) as an elite high anonymous HTTP proxy with SSL support with a few command lines. 
-
 **HOW TO :**
 
 Download, make executable and run with these lines :
@@ -35,22 +33,10 @@ For Uninstall Download, make executable and run with these lines :
 	chmod +x 3proxyuninst.sh
 	./3proxyuninst.sh
 
-**Script tested on 20.05.2016 on the following fresh VPS install distros :**
+**Script tested on March 2017 on the following fresh VPS install distros :**
 
-- Ubuntu 14.04 64bit (Vmware)
-- Scaleway C1 Arm Server (Debian Jessie)
+- Ubuntu 16.04 64bit (Vmware)
 
 
 **Script will run on :**
-- Debian 6 
-- Debian 7 
-- Debian 8 
-- Ubuntu 12.10 
-- Ubuntu 12.04 
-- Ubuntu 14.04
-- Ubuntu 16.04
-
-<<<<<<< HEAD
-=======
-http://barankilic.github.io/3proxy/
->>>>>>> origin/master
+- ?
