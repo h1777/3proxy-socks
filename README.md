@@ -1,11 +1,11 @@
-3proxy install script for Debian / Ubuntu VPS (ver 0.8.9)
+3proxy install script for Debian / Ubuntu VPS (ver 0.8.10)
 ======================================================
 
 **HOW TO :**
 
 Download, make executable and run with these lines :
 
-    wget --no-check-certificate https://raw.github.com/h1777/3proxy/master/3proxyinstaller.sh
+    wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
@@ -29,7 +29,7 @@ Once you've change the username / password you can start the proxy
 	
 For Uninstall Download, make executable and run with these lines :
 
-	wget --no-check-certificate https://raw.github.com/h1777/3proxy/master/3proxyuninst.sh
+	wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxyuninst.sh
 	chmod +x 3proxyuninst.sh
 	./3proxyuninst.sh
 
