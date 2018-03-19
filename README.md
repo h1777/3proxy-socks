@@ -9,6 +9,12 @@ Download, make executable and run with these lines :
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
+For servers with multiple IP's use these lines to download the correct config file for multiple ip's:
+
+    wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxy_installerX.sh
+    chmod +x 3proxy_installerX.sh
+    ./3proxy_installerX.sh
+    
 After install : CHANGE DEFAULT USERNAME AND PASSWORD !!! 
 
     nano /etc/3proxy/.proxyauth
