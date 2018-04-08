@@ -3,7 +3,7 @@
 
 **HOW TO :**
 
-Download, make executable and run with these lines :
+To download and install just run these commands, a) or b), depending in your situation
 
 a) for single IP
 
