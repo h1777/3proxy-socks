@@ -5,11 +5,13 @@
 
 Download, make executable and run with these lines :
 
-    wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxyinstaller.sh
+a) for single IP
+
+	wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxyinstaller.sh
     chmod +x 3proxyinstaller.sh
     ./3proxyinstaller.sh
 
-For servers with multiple IP's use these lines to download the correct config file for multiple ip's:
+b) for multiple IP's (this will download a different .cfg file prepared for multiple IPs)
 
     wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxy_installerX.sh
     chmod +x 3proxy_installerX.sh
@@ -23,7 +25,7 @@ Example change line inside .proxyauth
 
     johndoe:CL:johndoepassword123
 
-You can also change the port, default is 3128 (OPTIONAL)
+You can also change the port, default is 3128 (OPTIONAL but you should do it)
 
     nano /etc/3proxy/3proxy.cfg
     
@@ -47,4 +49,3 @@ For Uninstall Download, make executable and run with these lines :
 **Script will run on :**
 - ?
 
-test table | test table
