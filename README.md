@@ -46,3 +46,5 @@ For Uninstall Download, make executable and run with these lines :
 
 **Script will run on :**
 - ?
+
+test table | test table
