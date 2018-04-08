@@ -44,6 +44,7 @@ For Uninstall Download, make executable and run with these lines :
 **Script last tested on April 2018 on the following fresh VPS install distros :**
 
 - Ubuntu 16.04 64bit (AWS)
+- Debian 8
 
 
 **Script will run on :**
