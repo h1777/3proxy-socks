@@ -1,5 +1,5 @@
 3proxy as SOCKS5 proxy install script 
-Debian / Ubuntu VPS (ver 0.8.11)
+Debian / Ubuntu VPS (3proxy 0.8.12)
 ======================================================
 
 **HOW TO :**
