@@ -22,16 +22,16 @@ After install : CHANGE DEFAULT USERNAME AND PASSWORD !!!
 
     nano /etc/3proxy/.proxyauth
 	
-Example change line inside .proxyauth
+Example line inside .proxyauth for user and password are separated by :CL:
 
-    johndoe:CL:johndoepassword123
+    johndoe:CL:password123
 
 You can also change the port, default is 3128 (OPTIONAL but you should do it)
 
     nano /etc/3proxy/3proxy.cfg
     
 
-Once you've change the username / password you can start the proxy 
+Once you've changed the username / password you can start the proxy 
 (or reboot the VPS as 3proxy has been added to the init scripts and will autostart)
 
     /etc/init.d/3proxyinit start
@@ -42,9 +42,9 @@ For Uninstall Download, make executable and run with these lines :
 	chmod +x 3proxyuninst.sh
 	./3proxyuninst.sh
 
-**Script last tested on April 2018 on the following fresh VPS install distros :**
+**Script last tested in June 2018 on the following fresh VPS install distros :**
 
-- Ubuntu 16.04 64bit (AWS)
+- Ubuntu 16.04 64bit
 - Debian 8
 
 
