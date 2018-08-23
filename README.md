@@ -42,7 +42,7 @@ For Uninstall Download, make executable and run with these lines :
 	chmod +x 3proxyuninst.sh
 	./3proxyuninst.sh
 
-**Script last tested in June 2018 on the following fresh VPS install distros :**
+**Script last tested in August 2018 on the following fresh VPS install distros :**
 
 - Ubuntu 16.04 64bit
 - Debian 8
