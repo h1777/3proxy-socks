@@ -2,7 +2,7 @@ title: 3proxy (0.8.10)
 description: Install 3proxy as an elite high anonymous SOCKS proxy with SSL support with a few command lines.
 google_analytics: UA-70104652-1
 show_downloads: true
-theme: jekyll-theme-dinky
+theme: jekyll-theme-tactile
 
 gems:
   - jekyll-mentions
