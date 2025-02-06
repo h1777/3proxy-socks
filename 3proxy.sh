@@ -10,5 +10,5 @@ sudo make install
 chmod 755 /etc/3proxy/conf/add3proxyuser.sh
 cd /usr/local/3proxy/conf/
 sudo rm 3proxy.cfg
-curl -X GET "https://git.my4490.com/api/v1/repos/gitea/3proxy/raw/3proxy.cfg?token=1f702034c1f947d110392ac5019e31e8d9a812b9" -H  "accept: application/json" --output 3proxy.cfg
+curl -X GET "https://raw.githubusercontent.com/h1777/3proxy-socks/refs/heads/master/3proxy.cfg" -H  "accept: application/json" --output 3proxy.cfg
 chmod 755 /etc/3proxy/3proxy.cfg
