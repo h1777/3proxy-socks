@@ -8,15 +8,15 @@ To download and install just run these commands, a) or b), depending in your sit
 
 a) for single IP
 
-	wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxyinstaller.sh
-    chmod +x 3proxyinstaller.sh
-    ./3proxyinstaller.sh
+	wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxy.sh
+    chmod +x 3proxy.sh
+    ./3proxy.sh
 
 b) for multiple IP's (this will download a different .cfg file prepared for multiple IPs)
 
-    wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxy_installerX.sh
-    chmod +x 3proxy_installerX.sh
-    ./3proxy_installerX.sh
+    wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxyX.sh
+    chmod +x 3proxyX.sh
+    ./3proxyX.sh
     
 After install : CHANGE DEFAULT USERNAME AND PASSWORD !!! 
 
