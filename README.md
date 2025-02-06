@@ -4,7 +4,7 @@ Debian / Ubuntu VPS (3proxy 0.8.12)
 
 **HOW TO :**
 
-To download and install just run these commands, a) or b), depending in your situation
+To download run these commands, a) or b), depending in your situation
 
 a) for single IP
 
@@ -18,37 +18,30 @@ b) for multiple IP's (this will download a different .cfg file prepared for mult
     chmod +x 3proxyX.sh
     ./3proxyX.sh
     
-After install : CHANGE DEFAULT USERNAME AND PASSWORD !!! 
+To install: chmod and run
 
-    nano /etc/3proxy/.proxyauth
+    chmod 755 3proxyinstaller.sh
+    sudo ./3proxyinstaller.sh
 	
-Example line inside .proxyauth for user and password are separated by :CL:
+Add user and pass (replace user and pass with yours)
 
-    johndoe:CL:password123
+    sudo /usr/local/3proxy/conf/add3proxyuser.sh user pass
 
-You can also change the port, default is 3128 (OPTIONAL but you should do it). 
-Change port in line 42 >> socks -n -p3128 -a 
+Start and check the service 
 
-    nano /etc/3proxy/3proxy.cfg
+    sudo systemctl start 3proxy
+    sudo service 3proxy status
     
 
-Once you've changed the username / password you can start the proxy 
-(or reboot the VPS as 3proxy has been added to the init scripts and will autostart)
+If need to change ports, edit 3proxy.cfg
 
-    /etc/init.d/3proxyinit start
+    sudo nano /usr/local/3proxy/conf/3proxy.cfg
+
+Restart service after changes
+
+    sudo systemctl restart 3proxy
 	
-For Uninstall Download, make executable and run with these lines :
-
-	wget --no-check-certificate https://raw.github.com/h1777/3proxy-socks/master/3proxyuninst.sh
-	chmod +x 3proxyuninst.sh
-	./3proxyuninst.sh
-
-**Script last tested in August 2018 on the following fresh VPS install distros :**
-
-- Ubuntu 16.04 64bit
-- Debian 8
 
 
-**Script will run on :**
-- ?
+
 
